@@ -15,4 +15,9 @@ public class Animals {
     protected void learnCommands(String command) {
         this.commands.add(command);
     }
+
+    @Override
+    public String toString() {
+        return name + age + commands;
+    }
 }
